@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="../../lib/css/materialize.css">
+  <link rel="stylesheet" href="../../css/adapter.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="../../lib/js/jquery-3.2.1.min.js"></script>
+  <script src="../../socket.io/socket.io.js"></script>
+  <script src="../../js/translate.js"></script>
+  <script src="../../lib/js/materialize.js"></script>
+  <script src="../../js/adapter-settings.js"></script>
+  <script src="words.js"></script>
+  <script src="admin.js"></script>
+</head>
+<body>
+  <div class="m adapter-container">
+    <div class="row header-row">
+      <div class="col s12 m2 logo-col">
+        <img src="absaar.png" class="logo" alt="Absaar">
+      </div>
+      <div class="col s12 m10">
+        <h5>Absaar EMS</h5>
+        <p class="subline">Cloud-Polling fuer Absaar EMS Wechselrichter</p>
+      </div>
+    </div>
+
+    <div class="config-panel">
+      <div class="panel-title">Verbindung</div>
+      <div class="row">
+        <div class="col s12 m6 check-field">
+          <p><label>
+            <input id="enabled" type="checkbox">
+            <span>Adapter aktiv</span>
+          </label></p>
+        </div>
+        <div class="input-field col s12 m6">
+          <input id="pollInterval" type="number" min="30">
+          <label for="pollInterval">Poll-Intervall Sekunden</label>
+        </div>
+        <div class="input-field col s12 m6">
+          <input id="username" type="text">
+          <label for="username">Absaar Benutzername</label>
+        </div>
+        <div class="input-field col s12 m6">
+          <input id="password" type="password">
+          <label for="password">Absaar Passwort</label>
+        </div>
+        <div class="input-field col s12">
+          <input id="baseUrl" type="text">
+          <label for="baseUrl">API Basis-URL</label>
+        </div>
+        <div class="col s12 check-field">
+          <p><label>
+            <input id="writeRawJson" type="checkbox">
+            <span>Rohdaten als JSON speichern</span>
+          </label></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

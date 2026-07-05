@@ -1,0 +1,29 @@
+{
+  "name": "iobroker.absaar",
+  "version": "0.1.1",
+  "description": "ioBroker adapter for Absaar EMS inverters",
+  "author": "",
+  "homepage": "",
+  "license": "MIT",
+  "main": "main.js",
+  "keywords": [
+    "iobroker",
+    "absaar",
+    "inverter",
+    "solar",
+    "ems"
+  ],
+  "repository": {},
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@iobroker/adapter-core": "^3.2.3"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "test": "node --check main.js"
+  },
+  "bugs": {},
+  "readmeFilename": "README.md"
+}

@@ -1,0 +1,75 @@
+{
+  "common": {
+    "name": "absaar",
+    "version": "0.1.1",
+    "news": {
+      "0.1.1": {
+        "en": "Creates collector states even when the inverter data endpoint returns no rows and adds more station metrics",
+        "de": "Legt Collector-Datenpunkte auch dann an, wenn der Inverterdaten-Endpunkt keine Zeilen liefert, und ergaenzt weitere Stationswerte"
+      },
+      "0.1.0": {
+        "en": "Initial Absaar EMS cloud polling adapter",
+        "de": "Erste Version mit Absaar EMS Cloud-Polling"
+      }
+    },
+    "titleLang": {
+      "en": "Absaar EMS",
+      "de": "Absaar EMS"
+    },
+    "desc": {
+      "en": "Reads Absaar EMS inverter data from mini-ems.com",
+      "de": "Liest Absaar EMS Wechselrichterdaten von mini-ems.com"
+    },
+    "authors": [],
+    "keywords": [
+      "absaar",
+      "ems",
+      "inverter",
+      "solar",
+      "photovoltaic"
+    ],
+    "license": "MIT",
+    "platform": "Javascript/Node.js",
+    "main": "main.js",
+    "icon": "absaar.png",
+    "enabled": true,
+    "extIcon": "",
+    "readme": "",
+    "loglevel": "info",
+    "mode": "daemon",
+    "type": "energy",
+    "compact": true,
+    "connectionType": "cloud",
+    "dataSource": "poll",
+    "materialize": true,
+    "adminUI": {
+      "config": "materialize"
+    },
+    "dependencies": [
+      {
+        "js-controller": ">=5.0.0"
+      }
+    ],
+    "globalDependencies": [
+      {
+        "admin": ">=6.0.0"
+      }
+    ]
+  },
+  "native": {
+    "enabled": true,
+    "username": "",
+    "password": "",
+    "pollInterval": 120,
+    "baseUrl": "https://mini-ems.com:8081",
+    "writeRawJson": false
+  },
+  "protectedNative": [
+    "password"
+  ],
+  "encryptedNative": [
+    "password"
+  ],
+  "objects": [],
+  "instanceObjects": []
+}
