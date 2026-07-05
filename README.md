@@ -307,3 +307,9 @@ Das Standardintervall liegt bei 120 Sekunden. Das Intervall sollte bewusst konse
 - Erste Cloud-Polling-Version.
 - Anmeldung, Stationsabfrage, Collector-Abfrage und Inverterdaten-Abfrage ergaenzt.
 - Materialize-Admin-Konfiguration ergaenzt.
+
+## Changelog
+
+### **WORK IN PROGRESS**
+- (ioBroker-Bot) Adapter requires admin >= 7.8.23 now.
+
