@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "absaar",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "news": {
+      "0.1.4": {
+        "en": "Aligns GitHub repository metadata with ioBroker adapter checker rules",
+        "de": "Gleicht die GitHub-Repository-Metadaten an die ioBroker Adapter-Checker-Regeln an",
+        "ru": "Aligns GitHub repository metadata with ioBroker adapter checker rules",
+        "pt": "Aligns GitHub repository metadata with ioBroker adapter checker rules",
+        "nl": "Aligns GitHub repository metadata with ioBroker adapter checker rules",
+        "fr": "Aligns GitHub repository metadata with ioBroker adapter checker rules",
+        "it": "Aligns GitHub repository metadata with ioBroker adapter checker rules",
+        "es": "Aligns GitHub repository metadata with ioBroker adapter checker rules",
+        "pl": "Aligns GitHub repository metadata with ioBroker adapter checker rules",
+        "uk": "Aligns GitHub repository metadata with ioBroker adapter checker rules",
+        "zh-cn": "Aligns GitHub repository metadata with ioBroker adapter checker rules"
+      },
       "0.1.3": {
         "en": "Updates package metadata for ioBroker repository checks",
         "de": "Aktualisiert Paket-Metadaten fuer ioBroker Repository-Pruefungen",
