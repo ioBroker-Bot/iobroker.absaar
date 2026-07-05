@@ -1,7 +1,7 @@
 "use strict";
 
-const https = require("https");
-const { URL } = require("url");
+const https = require("node:https");
+const { URL } = require("node:url");
 const utils = require("@iobroker/adapter-core");
 
 const SENSOR_DEFINITIONS = [
