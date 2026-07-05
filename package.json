@@ -1,6 +1,6 @@
 {
   "name": "iobroker.absaar",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "ioBroker adapter for Absaar EMS inverters",
   "author": "TheBam1990",
   "homepage": "https://github.com/TheBam1990/ioBroker.absaar",

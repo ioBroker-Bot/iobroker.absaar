@@ -133,6 +133,10 @@ The default poll interval is 120 seconds. Keep this interval conservative to avo
 
 ### Version history
 
+#### 0.1.5
+
+- Removed unpublished version history entries from `io-package.json` news.
+
 #### 0.1.4
 
 - Aligned GitHub repository metadata with ioBroker adapter checker rules.

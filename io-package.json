@@ -1,33 +1,20 @@
 {
   "common": {
     "name": "absaar",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "news": {
-      "0.1.4": {
-        "en": "Aligns GitHub repository metadata with ioBroker adapter checker rules",
-        "de": "Gleicht die GitHub-Repository-Metadaten an die ioBroker Adapter-Checker-Regeln an",
-        "ru": "Aligns GitHub repository metadata with ioBroker adapter checker rules",
-        "pt": "Aligns GitHub repository metadata with ioBroker adapter checker rules",
-        "nl": "Aligns GitHub repository metadata with ioBroker adapter checker rules",
-        "fr": "Aligns GitHub repository metadata with ioBroker adapter checker rules",
-        "it": "Aligns GitHub repository metadata with ioBroker adapter checker rules",
-        "es": "Aligns GitHub repository metadata with ioBroker adapter checker rules",
-        "pl": "Aligns GitHub repository metadata with ioBroker adapter checker rules",
-        "uk": "Aligns GitHub repository metadata with ioBroker adapter checker rules",
-        "zh-cn": "Aligns GitHub repository metadata with ioBroker adapter checker rules"
-      },
-      "0.1.3": {
-        "en": "Updates package metadata for ioBroker repository checks",
-        "de": "Aktualisiert Paket-Metadaten fuer ioBroker Repository-Pruefungen",
-        "ru": "Updates package metadata for ioBroker repository checks",
-        "pt": "Updates package metadata for ioBroker repository checks",
-        "nl": "Updates package metadata for ioBroker repository checks",
-        "fr": "Updates package metadata for ioBroker repository checks",
-        "it": "Updates package metadata for ioBroker repository checks",
-        "es": "Updates package metadata for ioBroker repository checks",
-        "pl": "Updates package metadata for ioBroker repository checks",
-        "uk": "Updates package metadata for ioBroker repository checks",
-        "zh-cn": "Updates package metadata for ioBroker repository checks"
+      "0.1.5": {
+        "en": "Removes unpublished version history entries from io-package news",
+        "de": "Entfernt unveroeffentlichte Versionseintraege aus den io-package-News",
+        "ru": "Removes unpublished version history entries from io-package news",
+        "pt": "Removes unpublished version history entries from io-package news",
+        "nl": "Removes unpublished version history entries from io-package news",
+        "fr": "Removes unpublished version history entries from io-package news",
+        "it": "Removes unpublished version history entries from io-package news",
+        "es": "Removes unpublished version history entries from io-package news",
+        "pl": "Removes unpublished version history entries from io-package news",
+        "uk": "Removes unpublished version history entries from io-package news",
+        "zh-cn": "Removes unpublished version history entries from io-package news"
       }
     },
     "titleLang": {
