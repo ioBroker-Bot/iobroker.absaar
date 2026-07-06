@@ -3,18 +3,18 @@
     "name": "absaar",
     "version": "0.1.6",
     "news": {
-      "0.1.6": {
-        "en": "Adds CI, npm packaging metadata, English documentation, JSON config and Node.js 22 support",
-        "de": "Adds CI, npm packaging metadata, English documentation, JSON config and Node.js 22 support",
-        "ru": "Adds CI, npm packaging metadata, English documentation, JSON config and Node.js 22 support",
-        "pt": "Adds CI, npm packaging metadata, English documentation, JSON config and Node.js 22 support",
-        "nl": "Adds CI, npm packaging metadata, English documentation, JSON config and Node.js 22 support",
-        "fr": "Adds CI, npm packaging metadata, English documentation, JSON config and Node.js 22 support",
-        "it": "Adds CI, npm packaging metadata, English documentation, JSON config and Node.js 22 support",
-        "es": "Adds CI, npm packaging metadata, English documentation, JSON config and Node.js 22 support",
-        "pl": "Adds CI, npm packaging metadata, English documentation, JSON config and Node.js 22 support",
-        "uk": "Adds CI, npm packaging metadata, English documentation, JSON config and Node.js 22 support",
-        "zh-cn": "Adds CI, npm packaging metadata, English documentation, JSON config and Node.js 22 support"
+      "0.1.5": {
+        "en": "Removes unpublished version history entries from io-package news",
+        "de": "Removes unpublished version history entries from io-package news",
+        "ru": "Removes unpublished version history entries from io-package news",
+        "pt": "Removes unpublished version history entries from io-package news",
+        "nl": "Removes unpublished version history entries from io-package news",
+        "fr": "Removes unpublished version history entries from io-package news",
+        "it": "Removes unpublished version history entries from io-package news",
+        "es": "Removes unpublished version history entries from io-package news",
+        "pl": "Removes unpublished version history entries from io-package news",
+        "uk": "Removes unpublished version history entries from io-package news",
+        "zh-cn": "Removes unpublished version history entries from io-package news"
       }
     },
     "titleLang": {
@@ -63,7 +63,6 @@
     "extIcon": "https://raw.githubusercontent.com/TheBam1990/ioBroker.absaar/main/admin/absaar.png",
     "readme": "https://github.com/TheBam1990/ioBroker.absaar/blob/main/README.md",
     "loglevel": "info",
-    "tier": 2,
     "mode": "daemon",
     "type": "energy",
     "tier": 3,

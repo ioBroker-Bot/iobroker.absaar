@@ -135,6 +135,7 @@ Not every Absaar device reports every field. Missing values are left unchanged u
 - Switched Node.js built-in imports to the `node:` prefix.
 - Raised the minimum Node.js version to 22.
 - Replaced Materialize configuration with JSON config.
+- Updated ESLint development dependencies for the shared ioBroker ESLint config.
 - Reworked README to English-only documentation with changelog and license sections.
 
 ### 0.1.5
