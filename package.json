@@ -1,6 +1,6 @@
 {
   "name": "iobroker.absaar",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "ioBroker adapter for Absaar EMS inverters",
   "author": "TheBam1990",
   "homepage": "https://github.com/TheBam1990/ioBroker.absaar",
@@ -18,13 +18,23 @@
     "url": "https://github.com/TheBam1990/ioBroker.absaar.git"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=22"
   },
+  "files": [
+    "admin/",
+    "io-package.json",
+    "main.js",
+    "README.md",
+    "LICENSE"
+  ],
   "dependencies": {
     "@iobroker/adapter-core": "^3.4.1"
   },
   "devDependencies": {
+    "@iobroker/eslint-config": "^2.0.0",
     "@iobroker/testing": "^5.2.2",
+    "@tsconfig/node22": "^22.0.1",
+    "@types/node": ">=22",
     "eslint": "^8.57.0"
   },
   "scripts": {

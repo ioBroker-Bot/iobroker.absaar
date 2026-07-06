@@ -1,20 +1,20 @@
 {
   "common": {
     "name": "absaar",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "news": {
-      "0.1.5": {
-        "en": "Removes unpublished version history entries from io-package news",
-        "de": "Entfernt unveroeffentlichte Versionseintraege aus den io-package-News",
-        "ru": "Removes unpublished version history entries from io-package news",
-        "pt": "Removes unpublished version history entries from io-package news",
-        "nl": "Removes unpublished version history entries from io-package news",
-        "fr": "Removes unpublished version history entries from io-package news",
-        "it": "Removes unpublished version history entries from io-package news",
-        "es": "Removes unpublished version history entries from io-package news",
-        "pl": "Removes unpublished version history entries from io-package news",
-        "uk": "Removes unpublished version history entries from io-package news",
-        "zh-cn": "Removes unpublished version history entries from io-package news"
+      "0.1.6": {
+        "en": "Adds CI, npm packaging metadata, English documentation, JSON config and Node.js 22 support",
+        "de": "Adds CI, npm packaging metadata, English documentation, JSON config and Node.js 22 support",
+        "ru": "Adds CI, npm packaging metadata, English documentation, JSON config and Node.js 22 support",
+        "pt": "Adds CI, npm packaging metadata, English documentation, JSON config and Node.js 22 support",
+        "nl": "Adds CI, npm packaging metadata, English documentation, JSON config and Node.js 22 support",
+        "fr": "Adds CI, npm packaging metadata, English documentation, JSON config and Node.js 22 support",
+        "it": "Adds CI, npm packaging metadata, English documentation, JSON config and Node.js 22 support",
+        "es": "Adds CI, npm packaging metadata, English documentation, JSON config and Node.js 22 support",
+        "pl": "Adds CI, npm packaging metadata, English documentation, JSON config and Node.js 22 support",
+        "uk": "Adds CI, npm packaging metadata, English documentation, JSON config and Node.js 22 support",
+        "zh-cn": "Adds CI, npm packaging metadata, English documentation, JSON config and Node.js 22 support"
       }
     },
     "titleLang": {
@@ -70,7 +70,7 @@
     "connectionType": "cloud",
     "dataSource": "poll",
     "adminUI": {
-      "config": "materialize"
+      "config": "json"
     },
     "dependencies": [
       {

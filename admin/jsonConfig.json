@@ -1,0 +1,41 @@
+{
+  "type": "panel",
+  "items": {
+    "enabled": {
+      "type": "checkbox",
+      "label": "Adapter active",
+      "newLine": true,
+      "xs": 12,
+      "sm": 6
+    },
+    "pollInterval": {
+      "type": "number",
+      "label": "Poll interval seconds",
+      "min": 30,
+      "xs": 12,
+      "sm": 6
+    },
+    "username": {
+      "type": "text",
+      "label": "Absaar username",
+      "xs": 12,
+      "sm": 6
+    },
+    "password": {
+      "type": "password",
+      "label": "Absaar password",
+      "xs": 12,
+      "sm": 6
+    },
+    "baseUrl": {
+      "type": "text",
+      "label": "API base URL",
+      "xs": 12
+    },
+    "writeRawJson": {
+      "type": "checkbox",
+      "label": "Store raw data as JSON",
+      "xs": 12
+    }
+  }
+}
