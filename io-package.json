@@ -1,20 +1,20 @@
 {
   "common": {
     "name": "absaar",
-    "version": "0.1.8",
+    "version": "0.1.9",
     "news": {
-      "0.1.8": {
-        "en": "Adds admin translations required by the ioBroker adapter checker",
-        "de": "Fuegt vom ioBroker Adapter-Checker benoetigte Admin-Uebersetzungen hinzu",
-        "ru": "Добавляет переводы admin, необходимые для проверки адаптера ioBroker",
-        "pt": "Adiciona traducoes admin exigidas pelo verificador de adaptadores ioBroker",
-        "nl": "Voegt admin-vertalingen toe die vereist zijn door de ioBroker adapterchecker",
-        "fr": "Ajoute les traductions admin requises par le verificateur d'adaptateur ioBroker",
-        "it": "Aggiunge le traduzioni admin richieste dal controllo adattatori ioBroker",
-        "es": "Anade traducciones admin requeridas por el verificador de adaptadores ioBroker",
-        "pl": "Dodaje tlumaczenia admin wymagane przez kontroler adapterow ioBroker",
-        "uk": "Додає переклади admin, потрібні для перевірки адаптера ioBroker",
-        "zh-cn": "添加 ioBroker 适配器检查器所需的管理界面翻译"
+      "0.1.9": {
+        "en": "Adds trusted publishing workflow configuration for signed npm releases",
+        "de": "Fuegt die Trusted-Publishing-Workflow-Konfiguration fuer signierte npm-Releases hinzu",
+        "ru": "Добавляет конфигурацию Trusted Publishing для подписанных выпусков npm",
+        "pt": "Adiciona a configuracao de Trusted Publishing para releases npm assinados",
+        "nl": "Voegt Trusted Publishing-workflowconfiguratie toe voor ondertekende npm-releases",
+        "fr": "Ajoute la configuration Trusted Publishing pour les versions npm signees",
+        "it": "Aggiunge la configurazione Trusted Publishing per release npm firmate",
+        "es": "Anade la configuracion de Trusted Publishing para versiones npm firmadas",
+        "pl": "Dodaje konfiguracje Trusted Publishing dla podpisanych wydań npm",
+        "uk": "Додає конфігурацію Trusted Publishing для підписаних випусків npm",
+        "zh-cn": "添加用于签名 npm 发布的 Trusted Publishing 工作流配置"
       }
     },
     "titleLang": {

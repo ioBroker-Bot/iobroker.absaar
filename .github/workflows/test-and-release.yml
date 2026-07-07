@@ -4,43 +4,70 @@ on:
   push:
     branches:
       - main
-  pull_request:
-  release:
-    types:
-      - published
+    tags:
+      - "v[0-9]+.[0-9]+.[0-9]+"
+      - "v[0-9]+.[0-9]+.[0-9]+-**"
+  pull_request: {}
+
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
-  test:
+  check-and-lint:
+    if: contains(github.event.head_commit.message, '[skip ci]') == false
     runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22.x"
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run lint --if-present
+
+  adapter-tests:
+    if: contains(github.event.head_commit.message, '[skip ci]') == false
+    runs-on: ${{ matrix.os }}
     strategy:
       matrix:
         node-version:
-          - 22.x
-          - 24.x
+          - "22.x"
+          - "24.x"
+        os:
+          - ubuntu-latest
+          - windows-latest
+          - macos-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
           cache: npm
-      - run: npm install
+      - run: npm ci
       - run: npm test
 
-  publish:
-    if: github.event_name == 'release'
-    needs: test
+  deploy:
+    needs:
+      - check-and-lint
+      - adapter-tests
+    if: |
+      contains(github.event.head_commit.message, '[skip ci]') == false &&
+      github.event_name == 'push' &&
+      startsWith(github.ref, 'refs/tags/v')
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
       id-token: write
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 22.x
+          node-version: "22.14.0"
           registry-url: https://registry.npmjs.org
           cache: npm
-      - run: npm install
+      - run: npm install -g npm@latest
+      - run: npm ci
+      - run: npm test
       - run: npm publish --provenance --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
