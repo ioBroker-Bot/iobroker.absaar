@@ -128,6 +128,11 @@ Not every Absaar device reports every field. Missing values are left unchanged u
 
 ## Changelog
 
+### 0.1.11
+
+- Added ioBroker development tooling used by common adapter maintenance workflows.
+- Switched admin translations to the short i18n file format.
+
 ### 0.1.10
 
 - Switched the CI workflow to the standard ioBroker testing actions.

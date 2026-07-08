@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "absaar",
-    "version": "0.1.10",
+    "version": "0.1.11",
     "news": {
+      "0.1.11": {
+        "en": "Adds ioBroker development tooling and switches admin translations to the short i18n file format",
+        "de": "Fuegt ioBroker-Entwicklungswerkzeuge hinzu und stellt Admin-Uebersetzungen auf das kurze i18n-Dateiformat um",
+        "ru": "Добавляет инструменты разработки ioBroker и переводит admin translations на короткий формат i18n файлов",
+        "pt": "Adiciona ferramentas de desenvolvimento ioBroker e muda as traducoes admin para o formato curto de arquivos i18n",
+        "nl": "Voegt ioBroker ontwikkeltools toe en schakelt adminvertalingen om naar het korte i18n-bestandsformaat",
+        "fr": "Ajoute les outils de developpement ioBroker et passe les traductions admin au format court des fichiers i18n",
+        "it": "Aggiunge strumenti di sviluppo ioBroker e converte le traduzioni admin al formato file i18n breve",
+        "es": "Agrega herramientas de desarrollo ioBroker y cambia las traducciones admin al formato corto de archivos i18n",
+        "pl": "Dodaje narzedzia deweloperskie ioBroker i zmienia tlumaczenia admin na krotki format plikow i18n",
+        "uk": "Додає інструменти розробки ioBroker і переводить admin translations на короткий формат файлів i18n",
+        "zh-cn": "添加 ioBroker 开发工具并将管理界面翻译切换为短 i18n 文件格式"
+      },
       "0.1.10": {
         "en": "Uses the standard ioBroker testing actions and adds package and integration test scripts",
         "de": "Verwendet die Standard-ioBroker-Test-Actions und ergaenzt Paket- und Integrationstest-Skripte",
