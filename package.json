@@ -39,6 +39,8 @@
   "scripts": {
     "start": "node main.js",
     "lint": "eslint .",
+    "test:package": "mocha test/package --exit",
+    "test:integration": "mocha test/integration --exit",
     "test": "node --check main.js"
   },
   "bugs": {
