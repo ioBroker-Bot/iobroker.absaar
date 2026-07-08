@@ -18,14 +18,10 @@ jobs:
     if: contains(github.event.head_commit.message, '[skip ci]') == false
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: ioBroker/testing-action-check@v1
         with:
           node-version: "24.x"
-          cache: npm
-      - run: npm ci
-      - run: npm test
-      - run: npm run lint --if-present
+          lint: true
 
   adapter-tests:
     needs: check-and-lint
@@ -41,13 +37,10 @@ jobs:
           - windows-latest
           - macos-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: ioBroker/testing-action-adapter@v1
         with:
           node-version: ${{ matrix.node-version }}
-          cache: npm
-      - run: npm ci
-      - run: npm test
+          os: ${{ matrix.os }}
 
   deploy:
     needs:
@@ -62,13 +55,7 @@ jobs:
       contents: write
       id-token: write
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: ioBroker/testing-action-deploy@v1
         with:
           node-version: "24.x"
-          registry-url: https://registry.npmjs.org
-          cache: npm
-      - run: npm install -g npm@latest
-      - run: npm ci
-      - run: npm test
-      - run: npm publish --provenance --access public
+          github-token: ${{ secrets.GITHUB_TOKEN }}
