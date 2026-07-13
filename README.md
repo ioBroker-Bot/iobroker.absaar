@@ -128,6 +128,10 @@ Not every Absaar device reports every field. Missing values are left unchanged u
 
 ## Changelog
 
+
+### **WORK IN PROGRESS**
+- (ioBroker-Bot) Adapter requires admin >= 7.8.23 now.
+
 ### 0.1.12
 
 - Added the release script configuration required by the repository checker.
