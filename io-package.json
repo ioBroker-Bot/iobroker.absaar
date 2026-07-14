@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "absaar",
-    "version": "0.1.12",
+    "version": "0.1.13",
     "news": {
+      "0.1.13": {
+        "en": "Added complete adapter description translations and a manufacturer link.\nEnforced a safe polling interval range of 30 seconds to 24 hours.\nEnabled TLS certificate verification for cloud API requests.\nImproved state roles and avoided redundant object creation during polling.\nAdapter requires admin >= 7.8.23 now.",
+        "de": "Die vollständigen Übersetzungen der Adapterbeschreibung und ein Link zum Hersteller wurden hinzugefügt.\nEs wurde ein sicherer Abfrageintervallbereich von 30 Sekunden bis 24 Stunden durchgesetzt.\nDie TLS-Zertifikatsprüfung für Cloud-API-Anfragen wurde aktiviert.\nVerbesserte Statusrollen und Vermeidung redundanter Objekterzeugung während des Pollings.\nDer Adapter benötigt jetzt ioBroker Admin >= 7.8.23.",
+        "ru": "Добавлены полные переводы описания адаптера и ссылка на производителя.\nУстановлен безопасный диапазон интервалов опроса от 30 секунд до 24 часов.\nВключена проверка TLS-сертификатов для запросов к облачному API.\nУлучшена работа с ролями состояний и исключено избыточное создание объектов во время опроса.\nДля работы адаптера теперь требуется версия admin >= 7.8.23.",
+        "pt": "Adicionadas traduções completas da descrição do adaptador e um link para o fabricante.\nFoi implementado um intervalo de verificação seguro de 30 segundos a 24 horas.\nAtivada a verificação de certificado TLS para solicitações de API na nuvem.\nMelhoria das funções de estado e prevenção da criação de objetos redundantes durante a sondagem.\nO adaptador agora requer o admin versão >= 7.8.23.",
+        "nl": "Complete vertalingen van de adapterbeschrijving en een link naar de fabrikant zijn toegevoegd.\nEen veilig pollinginterval van 30 seconden tot 24 uur is ingesteld.\nTLS-certificaatverificatie is ingeschakeld voor cloud-API-verzoeken.\nVerbeterde statusrollen en het voorkomen van overbodige objectcreatie tijdens polling.\nDe adapter vereist nu admin >= 7.8.23.",
+        "fr": "Ajout de traductions complètes des descriptions des adaptateurs et d'un lien vers le fabricant.\nUn intervalle d'interrogation sécurisé de 30 secondes à 24 heures a été imposé.\nActivation de la vérification des certificats TLS pour les requêtes API cloud.\nAmélioration des rôles d'état et suppression de la création d'objets redondants lors de l'interrogation.\nL'adaptateur nécessite désormais une version d'administrateur supérieure ou égale à 7.8.23.",
+        "it": "Sono state aggiunte le traduzioni complete della descrizione dell'adattatore e un link al produttore.\nÈ stato imposto un intervallo di polling sicuro compreso tra 30 secondi e 24 ore.\nÈ stata abilitata la verifica del certificato TLS per le richieste API cloud.\nRuoli di stato migliorati ed evitata la creazione ridondante di oggetti durante il polling.\nL'adattatore ora richiede admin >= 7.8.23.",
+        "es": "Se han añadido traducciones completas de la descripción del adaptador y un enlace al fabricante.\nSe estableció un intervalo de sondeo seguro de entre 30 segundos y 24 horas.\nSe habilitó la verificación de certificados TLS para las solicitudes de API en la nube.\nSe mejoraron las funciones de estado y se evitó la creación de objetos redundantes durante el sondeo.\nEl adaptador ahora requiere admin >= 7.8.23.",
+        "pl": "Dodano pełne tłumaczenia opisów adapterów i link producenta.\nWprowadzono bezpieczny zakres interwału sondowania od 30 sekund do 24 godzin.\nWłączono weryfikację certyfikatu TLS dla żądań interfejsu API w chmurze.\nUlepszono role stanów i uniknięto tworzenia zbędnych obiektów podczas sondowania.\nAdapter wymaga teraz uprawnień administratora >= 7.8.23.",
+        "uk": "Додано повний переклад опису адаптера та посилання на виробника.\nЗапроваджено безпечний інтервал опитування від 30 секунд до 24 годин.\nУвімкнено перевірку сертифіката TLS для запитів хмарного API.\nПокращено ролі станів та уникнуто створення надлишкових об'єктів під час опитування.\nАдаптер тепер вимагає адміністратора версії >= 7.8.23.",
+        "zh-cn": "添加了完整的适配器描述翻译和制造商链接。\n强制执行30秒至24小时的安全轮询间隔范围。\n已为云 API 请求启用 TLS 证书验证。\n改进了状态角色，避免了轮询期间创建冗余对象。\n适配器现在需要管理员版本 >= 7.8.23。"
+      },
       "0.1.12": {
         "en": "Adds the release script configuration required by the repository checker",
         "de": "Fuegt die vom Repository-Checker benoetigte Release-Script-Konfiguration hinzu",
